@@ -1,0 +1,169 @@
+﻿生成启动时间为 2019/4/11 15:09:00。
+     1>项目“D:\LoginLauncher\LoginLauncher\LoginLauncher\LoginLauncher.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Uic'ing LoginLauncher.ui...
+       ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\protobuf-2.6.1\src" /I.\GeneratedFiles /I. /ID:\Qt\Qt5.6.0\5.6\msvc2015_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.6.0\5.6\msvc2015_64\include\QtCore /ID:\Qt\Qt5.6.0\5.6\msvc2015_64\include\QtGui /ID:\Qt\Qt5.6.0\5.6\msvc2015_64\include\QtANGLE /ID:\Qt\Qt5.6.0\5.6\msvc2015_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_LoginLauncher.cpp LoginLauncher.cpp main.cpp
+         moc_LoginLauncher.cpp
+         LoginLauncher.cpp
+         main.cpp
+     1>D:\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (编译源文件 LoginLauncher.cpp)
+         D:\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明 (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(806): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时 (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(685): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用 (编译源文件 LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时 (编译源文件 LoginLauncher.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(38112): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用 (编译源文件 LoginLauncher.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(14285): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用 (编译源文件 LoginLauncher.cpp)
+     1>D:\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (编译源文件 main.cpp)
+         D:\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明 (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(806): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时 (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(685): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用 (编译源文件 main.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时 (编译源文件 main.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(38112): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用 (编译源文件 main.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(14285): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用 (编译源文件 main.cpp)
+     1>D:\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(806): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(685): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         D:\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(38112): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+         d:\loginlauncher\loginlauncher\loginlauncher\common.pb.h(14285): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用 (编译源文件 GeneratedFiles\Debug\moc_LoginLauncher.cpp)
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LoginLauncher\LoginLauncher\x64\Debug\\LoginLauncher.exe" /NOLOGO /LIBPATH:"D:\protobuf-2.6.1\vsprojects\x64\Debug" /LIBPATH:D:\Qt\Qt5.6.0\5.6\msvc2015_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\LoginLauncher\LoginLauncher\x64\Debug\LoginLauncher.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LoginLauncher\LoginLauncher\x64\Debug\LoginLauncher.lib" /MACHINE:X64 x64\Debug\common.pb.obj
+         x64\Debug\fclientmsg.pb.obj
+         x64\Debug\moc_LoginLauncher.obj
+         x64\Debug\qrc_LoginLauncher.obj
+         x64\Debug\LoginLauncher.obj
+         x64\Debug\main.obj
+         LoginLauncher.vcxproj -> D:\LoginLauncher\LoginLauncher\x64\Debug\LoginLauncher.exe
+     1>已完成生成项目“D:\LoginLauncher\LoginLauncher\LoginLauncher\LoginLauncher.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.43
